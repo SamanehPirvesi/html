@@ -1,0 +1,56 @@
+a:link{
+	text-decoration:underline;
+	color:greenyellow;
+	
+}
+a:hover{
+	text-decoration:underline;}
+}
+a:visited{color:darkgreen:}
+p:first-letter{
+	font-size:3em;
+	}
+article:before{
+	content:'******'}
+	p:first-of-type{
+	margin-right:200px;}
+	
+li:first-child{
+	font-style:italic;
+}	
+li:last-child{
+	font-weight:bold;
+}
+li:nth-of-type(3){
+	text-decoration:underline;
+}
+span[title]{
+	color:black;
+}
+span[title"first idea"]{
+	text-decoration:line through;
+}
+a[href ^="emal"]{
+	font-size:2em;
+}
+#table1{
+	border:1px solid black;
+	border-spacing:0px;
+	background-color:goldlight;
+	border-collapse:collapse;
+	
+}
+table{
+	border-collapse:seprate ; border-spacing:0px;
+	border:2px solid black;
+	caption-side:top;
+}
+table thead th{border-width:1px ; border-style:solid; border-color:red;}
+table thead td{border-width:1px ; border-style:solid; border-color:red;}
+table tfoot th{}
+table tfoot td{}
+table tbody th{border-width:1px ; border-style:solid; border-color:red;}
+table tbody td{ border-width:1px ; border-style:solid; border-color:red;}
+col.firstcolumn{
+	background-color:#245678;
+}

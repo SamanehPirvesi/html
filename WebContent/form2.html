@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method=post action="list.html" >
+<h2>email</h2>
+<p><label><span>Email Input:</span><input type="email" name="emailInput" required></label>
+<h2>telephone</h2>
+<p><label> <span> telphone:</span><input type="tel" name=telInput required> add 7 number for phone</label>
+<h2>url</h2>
+<p><label> <span>url input:</span><input type="url" name=urlInput required></label>
+<h2>number</h2>
+<p><label> <span> unmber input:</span><input type="number" name=telInput required></label>
+<p><label><span>range input</span> <input type="range" nmae="rangeInput" required value=23></label>value set to 24. by default , values between 1 and 100</p>
+<h2>data list</h2>
+<p><label><span>data list</span>
+<input type="text" list=somelist>
+<datalist id=somelist>
+<option label=first value="first">
+<option label=second value="second">
+<option label=thired value="thired">
+</datalist>
+</label>
+<h2>attributes</h2>
+<p><label><span>autofocus</span><input type=text autofocus></label></p>
+
+<p><label><span>pattern:</span><input type=text pattern="^\d{5}(-\d{4})?$"></label>use the valid zip code</p>
+<p><label><span>placeholder</span><input type=text placeholder="hello world"></label></p>
+<p><label><span>required</span><input type=text required></label></p>
+<p><label><span>step:</span><input type=number step=5></label> hint: must be divisibel by 5</p>
+
+
+
+
+<p><button>submit</button></p>
+</body>
+</html>

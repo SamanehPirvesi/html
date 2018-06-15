@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form method=post action="list.html" >
+<p><lable>customer name:<input type="text" id="name" name="name" maxlenght="10" value="what is your name?"></iput></lable></p>
+<h2>email</h2>
+<p><label><span>Email Input</span><input type="email" name="emailInput" requierd></label>
+<fieldset>
+<legend>pizza size:</legend>
+<p><label><input type="radio" name="size" value="small">small(10 inch)</label></p>
+<p><label><input type="radio" name="size" value="medium" checked>medium(12 inch)</label></p>
+<p><label><input type="radio" name="size" value="large">large(15 inch)</label></p>
+</fieldset>
+<fielset>
+<legend>
+<p><label><input type="checkbox" name"topping" value="bacon">bacon</label></p>
+<p><label><input type="checkbox" name"topping" value="cheese" checked>extra cheese</label></p>
+<p><label><input type="checkbox" name"topping" value="onion">onion</label></p>
+<p><label><input type="checkbox" name"topping" value="mushroom">mushroom</label></p>
+</legend>
+<p>crust
+<select name="crust" multiple>
+<option value="c1">normal</option>
+<option value="c2" selected>chicago</option>
+<option value="c3">new york</option>
+</select>
+
+<p><label for="comments">delivery instructions:</label>
+<textarea name="comments" cols="50" rows="5" maxlength="1000">
+how do we get to your house?
+</textarea>
+</p>
+<p><input type="submit" value="continue to step2"></p>
+<p><input type="reset" value="reset values"></p>
+</form>
+</body>
+</html>
